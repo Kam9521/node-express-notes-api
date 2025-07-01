@@ -1,17 +1,34 @@
-# 🔐 API Notatek — Express.js
+# 🗒️ Menadżer Notatek – React + Express + MongoDB
 
-To jest prosty backendowy projekt REST API napisany w Node.js z użyciem frameworka **Express.js**.
+Ten projekt to prosty, ale w pełni funkcjonalny menadżer notatek stworzony z użyciem technologii MERN (MongoDB, Express, React, Node.js). Umożliwia dodawanie, edycję, usuwanie oraz wyświetlanie notatek.
 
-### 📌 Funkcje:
-- `GET /notes` — pobiera wszystkie notatki
-- `POST /notes` — dodaje nową notatkę (w formacie JSON)
-- `PUT /notes/:id` — edytuje istniejącą notatkę na podstawie ID
-- `DELETE /notes/:id` — usuwa notatkę po ID
+## 🔧 Technologie użyte w projekcie
 
-### 💾 Przykładowa notatka:
-```json
-{
-  "id": 1,
-  "title": "Pierwsza notatka",
-  "content": "Uczę się Express.js!"
-}
+- **Frontend**: React + Vite
+- **Backend**: Express.js (Node.js)
+- **Baza danych**: MongoDB (lokalnie)
+- **Stylowanie**: CSS (prosty layout)
+- **Komunikacja**: REST API (JSON)
+
+---
+
+## ✨ Funkcje aplikacji
+
+- ✅ Dodawanie nowych notatek
+- ✅ Wyświetlanie listy zapisanych notatek
+- ✅ Usuwanie istniejących notatek
+- ✅ Edytowanie zawartości notatek
+- ✅ Dane przechowywane w MongoDB
+
+---
+
+## 🚀 Jak uruchomić projekt lokalnie
+
+### Backend (Express + MongoDB)
+
+1. Przejdź do folderu backendu (np. `node-express-notes-api`)
+2. Zainstaluj zależności:
+
+```bash
+npm install
+```
